@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Counter"
+             x:Class="kUMTE_2020.Views.CounterPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Counter"
+                   HorizontalTextAlignment="Center"
+                   x:Name="LblCounter" />
+            <Button Text="Increment"
+                    Margin="10,10,10,10"
+                    Clicked="ButtonIncrement_OnClicked"/>
+            
+
+            <Label Text="Coordinates"
+                   x:Name="LabelCoordinates"></Label>
+            <Button Text="Renew GPS coords"
+                    x:Name="ButtonRenewGpsCoords"
+            ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
